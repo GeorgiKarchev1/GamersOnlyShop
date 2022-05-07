@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  padding: 0 ;
+  margin: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://www.dolby.com/siteassets/xf-site/blocks/hero/netflix-gradient.png?width=1440);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+footer {
+   position: absolute;
+   bottom: 0;          
+   left: 0;
+   right: 0;
+   background-color: none;
+   height: auto;
+   width: 100vw;
+   font-family: "Open Sans";
+   padding-top: 40px;
+   color: white;
+}
+.footer-bottom {
+  background: none;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+ .footer-bottom span {
+   text-transform: uppercase;
+   opacity: .4;
+   font-weight: 200;
+ }
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.container {
+   display: flex;
+   justify-content: center;
+}
+
+/* Всички карти */
+.card-item {
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+}
+.card-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.40);
+}
+.card-item h2 {
+  margin-top: 40px;
+}
+.card-first {
+  
+}
+.card-first:hover {
+  
+}
+.card-first h2 {
+  padding: 2px;
+  margin: 10px 0;
+}
+
+.image {
+  width:100%; 
+ 
+}
+
+
+.card-second:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card-second h2 {
+  padding: 10px;
+  margin: 8px 0;
+}
+.image2 {
+  width: 100%;
+  margin-top: 30px;
+}
+.card-third {
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+}
+
+.card-third:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.image3 {
+width: 80%;
+margin-top: 15px;
+}
+
+.card-third h2 {
+  margin-bottom: 200px;
+  margin: 8px 0;
+}
+.card-third p {
+ margin-top: 30px;
+}
+
+.card-fourth {
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+}
+.card-fourth:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.image4 {
+  width: 95%;
+}
+
+.card-fourth h2{
+  margin-bottom: 100px;
+  margin: 8px 0;
+}
+
+.card-fourth p {
+    margin-top: 30px;
+}
+
+.card-fifth {
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+}
+.card-fifth:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.image5 {
+  width: 90%;
+  margin: 8px 0;
+  margin-top: 50px;
+}
+
+.card-fifth h2 {
+  margin-top: 50px;
+ 
+}
+
+.card-fifth p {
+  margin-top: 25px;
+ 
+}
+.card-sixth {
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+}
+.card-sixth:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.image6 {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.card-sixth h2 {
+ margin-top: 15px;
+}
+
+.card-sixth p {
+  margin-top: 25px;
+}
+/* Бутони */
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 0.5rem 1.25em;
+  margin-top: 90px;
+}
+.button:hover,
+ button:focus {
+   background-color: black;
+ }
+
+.button-2 {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 0.5rem 1.25em;
+  margin-top: 40px;
+}
+.button-2:hover,
+ .button-2:focus {
+   background-color: black;
+ }
+
+ .button-3 {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 0.5rem 1.25em;
+  margin-top: 100px;
+}
+.button-3:hover,
+ .button-3:focus {
+   background-color: black;
+ }
+
+ .button-4 {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 0.5rem 1.25em;
+  margin-top: 100px;
+}
+.button-4:hover,
+ .button-4:focus {
+   background-color: black;
+ }
+
+ .button-5 {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 0.5rem 1.25em;
+  margin-top: 140px;
+}
+.button-5:hover,
+ .button-5:focus {
+   background-color: black;
+ }
+
+ .button-6 {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 0.5rem 1.25em;
+  margin-top: 100px;
+}
+.button-6:hover,
+ .button-6:focus {
+   background-color: black;
+ }
+ /* Да са Responsive картите */
+
+@media screen and (max-width:1000px) {
+  .content { 
+        width: 45%;
+   }
+}
+
+@media screen and (max-width:750px) {
+  .content { 
+        width: 100%;
+   }
+}
+
+/* Плащания */
+.paypal {
+ height: 30px;
+
+}
+
+.crypto1 {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.crypto2 {
+  height: 30px;
+  margin-left: 10px;
+}
